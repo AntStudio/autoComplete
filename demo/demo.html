@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="../plugin/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="../src/jquery.autocomplete.js"></script>
+  <link rel="stylesheet" href="../src/jquery.autocomplete.css">
+  <title>AutoComplete Demo</title>
+  <script>
+		$(function(){
+			$(":input").autoComplete({
+				triggerLength:1,
+				data:["demo","demo1111","demo112","demo3","demo4"]
+			});
+		});
+  </script>
+ </head>
+ <body>
+	<input type="text"/>
+	<input type="text"/>
+	<input type="text"/>
+	<input type="text"/>
+	<input type="text"/>
+ </body>
+</html>
